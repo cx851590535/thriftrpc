@@ -1,5 +1,5 @@
 {
-    "name": "chen/thriftrpc",
+    "name": "mrchen/thriftrpc",
     "description": "thrift RPC for PHP",
     "type": "project",
     "license": "MIT",
