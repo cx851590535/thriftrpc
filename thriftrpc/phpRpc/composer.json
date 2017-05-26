@@ -1,10 +1,29 @@
 {
-    "name"  : "workerman/thrift-rpc",
-    "type"  : "project",
-    "keywords": ["thrift","rpc"],
-    "homepage": "http://www.workerman.net",
-    "license" : "MIT",
+    "name": "chen/thriftrpc",
+    "description": "thrift RPC for PHP",
+    "type": "project",
+    "license": "MIT",
+	"keywords": ["thrift","rpc"],
+    "homepage": "https://github.com/cx851590535/thriftrpc",
+    "authors": [
+        {
+            "name": "Chen Xiang",
+            "email": "chenxiang@bignox.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "require": {
+        "php": ">=5.6.4",
         "workerman/workerman" : ">=3.3.0"
+    }
+	"autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "PhpRpc\\":"vendor/thriftrpc/phpRpc",
+            "PhpRpc\\Commands\\":"vendor/thriftrpc/phpRpc/Commands"
+        }
     }
 }
