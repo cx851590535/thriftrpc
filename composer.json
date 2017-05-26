@@ -11,8 +11,8 @@
     },
 	"autoload": {
         "psr-4": {
-            "PhpRpc\\":"vendor/thriftrpc/phpRpc",
-            "PhpRpc\\Commands\\":"vendor/thriftrpc/phpRpc/Commands"
+            "PhpRpc\\":"vendor/mrchen/thriftrpc/phpRpc",
+            "PhpRpc\\Commands\\":"vendor/mrchen/thriftrpc/phpRpc/Commands"
         }
     }
 }
