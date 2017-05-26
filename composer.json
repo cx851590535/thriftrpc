@@ -5,7 +5,7 @@
     "license": "MIT",
 	"keywords": ["thrift","rpc"],
     "homepage": "https://github.com/cx851590535/thriftrpc",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "workerman/workerman" : ">=3.3.0"
     },
